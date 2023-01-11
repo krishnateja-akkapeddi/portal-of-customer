@@ -11,7 +11,7 @@ export class LocalJsonStorage implements JsonStorage {
   }
 
   /**
-   * Singleton class create instance only once
+   * Singleton class create only once
    */
   public static getInstance(): LocalJsonStorage {
     if (!LocalJsonStorage.instance) {
