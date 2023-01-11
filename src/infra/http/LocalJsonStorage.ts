@@ -4,7 +4,7 @@ export class LocalJsonStorage implements JsonStorage {
   private static instance: LocalJsonStorage;
 
   /**
-   * Singleton class private contructor
+   * Singleton class private contructor and this is a private constructor
    */
   private constructor() {}
 
