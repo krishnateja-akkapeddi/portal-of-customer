@@ -6,7 +6,9 @@ export class LocalJsonStorage implements JsonStorage {
   /**
    * Singleton class private contructor and this is a private constructor
    */
-  private constructor() {}
+  private constructor() {
+    this.instance = new LocalJsonStorage.getInstance();
+  }
 
   /**
    * Singleton class create instance only once
