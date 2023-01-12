@@ -3,7 +3,7 @@ import React from "react";
 type Props = {};
 
 const AuthenticationPage = (props: Props) => {
-  return <div></div>;
+  return <div>Hi</div>;
 };
 
 export default AuthenticationPage;

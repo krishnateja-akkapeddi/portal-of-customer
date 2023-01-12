@@ -11,7 +11,6 @@ import { RemoteVerifyContact } from "../../data/usecases/customers/RemoteVerifyC
 import { RemoteVerifyFirmName } from "../../data/usecases/customers/RemoteVerifyFirmname";
 import { RemoteVerifyPan } from "../../data/usecases/customers/RemoteVerifyPan";
 import { RemoteVerifyGst } from "../../data/usecases/customers/RemoteVerifyGst";
-
 import { RemoteRejectImage } from "../../data/usecases/customers/RemotRejectImage";
 import { RemotePostAdditionalDetails } from "../../data/usecases/customers/RemotePostAdditionalDetails";
 import { fetchedCustomers } from "../../domain/models/CustomersResponse";
